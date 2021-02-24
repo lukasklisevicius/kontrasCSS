@@ -115,7 +115,7 @@ button {
 }
 
 button:hover {
-  background-color: #306aba;
+  background-color: #b9302c;
   -webkit-transition: 0.3s;
   transition: 0.3s;
   cursor: pointer;
@@ -182,8 +182,8 @@ main {
   grid-gap: 15px;
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
-  -ms-grid-rows: 0.3fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-      grid-template-rows: 0.3fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: 0.3fr 1fr 1fr 1fr 1fr 0.3fr 1fr 1fr 1fr;
+      grid-template-rows: 0.3fr 1fr 1fr 1fr 1fr 0.3fr 1fr 1fr 1fr;
       grid-template-areas: "head " "card1" "card2" "card3"  "card4" "card5" "card6" "card7" "card8";
 }
 
@@ -219,9 +219,6 @@ main {
         grid-template-rows: 0.2fr 0.5fr 1fr 0.2fr 0.5fr;
         grid-template-areas: "head head head" "card1 card2 card3" "card4 card4 card4" "card5 card5 card5" "card6 card7 card8";
   }
-}
-
-@media screen and (min-width: 1200px) {
   header .info, .info1 .info, .info2 .info {
     text-align: left;
     -webkit-box-orient: horizontal;
@@ -229,6 +226,9 @@ main {
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse;
   }
+}
+
+@media screen and (min-width: 1200px) {
   .content {
     padding: 0 20% 0 20%;
   }

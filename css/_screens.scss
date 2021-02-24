@@ -29,13 +29,14 @@
                              "card5 card5 card5"
                              "card6 card7 card8";
     }
+    header .info {
+        text-align: left;
+        flex-direction: row;
+        
+    }
 }
 @media screen and (min-width:1200px){
-header .info {
-    text-align: left;
-    flex-direction: row-reverse;
-    
-}
+
 .content {
     padding: 0 20% 0 20%;
     header .info {

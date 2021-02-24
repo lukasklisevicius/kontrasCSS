@@ -14,7 +14,7 @@ main {
     display: grid;
     grid-gap: 15px;
     grid-template-columns: 1fr ;
-    grid-template-rows: 0.3fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.3fr 1fr 1fr 1fr 1fr 0.3fr 1fr 1fr 1fr;
     grid-template-areas: "head "
                          "card1"
                          "card2"
