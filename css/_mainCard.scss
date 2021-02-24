@@ -1,0 +1,20 @@
+header {
+    .info{
+    margin: 10% 0 10% 0;
+    background-color: #fff;
+    width: 100%;
+    border-radius: $radius;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    min-width: 300px;
+    div{
+        margin: 5%;
+        h2,h3 {margin: 0;}
+    }
+    img {
+        max-width: 50%;
+    }
+}}

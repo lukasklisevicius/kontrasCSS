@@ -1,0 +1,15 @@
+button {
+    margin-top: 10%;
+    width: 150px;
+    height: 50px;
+    border-radius: $radius;
+    border: 1px solid $primary;
+    background-color: $primary;
+    color: #fff;
+    text-transform: capitalize;
+    &:hover{
+       background-color: #306aba;
+       transition: 0.3s;
+       cursor: pointer;
+    }
+}

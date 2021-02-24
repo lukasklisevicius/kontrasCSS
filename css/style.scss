@@ -1,0 +1,50 @@
+@import "./vars";
+@import "./nav";
+
+@import "./mixin";
+@import "./mainCard";
+@import "./card";
+@import "./button";
+@import "./grid";
+@import "./screens";
+
+
+
+
+.content {
+    max-width: 100%;
+    flex-direction: column;
+    margin: 0 5% 5% 5%;
+    
+}
+
+Body {
+    line-height: 1.2;
+    background-color: $background;
+    box-sizing: border-box;
+    font-family: $fontFamily;
+    font-size: $textSizeBody;
+    color: $bodyText;
+    h1 {font-size: $h1;}
+    h2 {font-size: $h2;}
+    h3 {font-size: $h3; color: $primary;}
+    h4 {font-size: $h4; color: black}
+    h1, h2, h3, h4{font-weight: $bold; text-transform: capitalize;}
+    h1, h2 {color: $headings;}
+    h2, h3 {margin: 0;}
+    @include flexCenter();
+    flex-direction: column;
+}
+.info1, .info2{
+    @extend header;
+    flex-direction: column-reverse;
+}
+.head, .header {text-align: center;}
+
+.bg-none{
+    background-color: $background;
+    border: none;
+    img {
+        max-width: 100%;
+    }
+}
